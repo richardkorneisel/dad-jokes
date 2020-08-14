@@ -32,6 +32,18 @@ It should also display a large button that, when clicked, fetches a random dad
 joke from the dad jokes API and displays it to the user. Make it look as close
 to the image provided below.
 
+## Note
+
+When making a get request to this specific API you will need to convert the data you're receiving into JSON format. In order to accomplish this you will need to add a `header` to your request like so:
+
+```js 
+axios.get('https://icanhazdadjoke.com/api', {
+    headers: {
+        Accept: 'application/json'
+    }
+})
+```
+
 ![Dad Jokes app mock](./assets/dad-jokes.png)
 
 ## Bonus
