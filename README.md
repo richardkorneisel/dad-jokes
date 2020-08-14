@@ -20,7 +20,6 @@ the API with the push of a button!
 1.  Change into the new directory.
 1.  Install dependencies.
 1.  Fulfill the listed requirements.
-1.  Make a pull request to submit your work.
 
 The starter code provided here is based on Create React App. Make a pull request
 by the end of the lab block for your assignment to be considered complete.
