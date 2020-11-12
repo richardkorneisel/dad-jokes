@@ -37,12 +37,19 @@ to the image provided below.
 When making a get request to this specific API you will need to convert the data you're receiving into JSON format. In order to accomplish this you will need to add a `header` to your request like so:
 
 ```js 
-axios.get('https://icanhazdadjoke.com/api', {
+axios.get('https://icanhazdadjoke.com/', {
     headers: {
         Accept: 'application/json'
     }
 })
 ```
+
+If you get a **CORS** error in your console and cannot get the data, try this url instead:
+
+```js
+'https://cors-anywhere.herokuapp.com/https://icanhazdadjoke.com/'
+```
+
 
 ![Dad Jokes app mock](./assets/dad-jokes.png)
 
