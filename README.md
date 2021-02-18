@@ -21,8 +21,7 @@ the API with the push of a button!
 1.  Install dependencies.
 1.  Fulfill the listed requirements.
 
-The starter code provided here is based on Create React App. Make a pull request
-by the end of the lab block for your assignment to be considered complete.
+The starter code provided here is based on Create React App.
 
 ## Requirements
 
